@@ -9,8 +9,9 @@ public class Exercise2 {
         int sum = 0;
 
         while(count <= n) {
-            // Find even numbers. Sum and print even numbers
+            // Find even numbers
             if(count % 2 == 0) {
+                // Sum and print even numbers
                 sum += count;
                 }
             count++;
